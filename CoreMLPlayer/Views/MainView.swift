@@ -82,8 +82,9 @@ struct MainView: View {
             .padding(.bottom)
             
             VStack {
-                Text("Apply your CoreML Model to different images and videos while being able to pause and zoom in for a better inspection.")
+                Text("Apply your CoreML Model to different images and videos while being able to filter by confidence rate or zoom in for a better inspection.")
                     .multilineTextAlignment(.center)
+                Link("Project's Github", destination: URL(string: "https://github.com/npna/CoreMLPlayer")!)
             }
             .frame(maxWidth: 400)
             .font(.caption)
