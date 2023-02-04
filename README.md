@@ -9,6 +9,7 @@
 
 # Requirements
 macOS 13.0+
+
 Currently supports Object Detection and Classification models that can be used with Vision framework.
 
 # Screenshots
