@@ -44,10 +44,6 @@ struct K {
         static let buttonMinus: CGFloat = 0.8
     }
     
-    struct DrawSettings {
-        static let suiteName: String = "coreMLPlayerDrawSettingsSuite"
-    }
-    
     struct DrawDefaults {
         static let borderColor: Color = .red
         static let borderWidth: Double = 2
