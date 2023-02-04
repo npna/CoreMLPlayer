@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D11159329880EE900D032C8 /* VideoDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11159229880EE900D032C8 /* VideoDetection.swift */; };
+		0D210DAC298F14D400CC81BC /* YOLOv5s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0D210DAB298F14D400CC81BC /* YOLOv5s.mlmodel */; };
 		0D25FC59297EFEEC00E3F562 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D25FC58297EFEEC00E3F562 /* Status.swift */; };
 		0D25FC5B297F042900E3F562 /* StatusProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D25FC5A297F042900E3F562 /* StatusProgressView.swift */; };
 		0D25FC5D297F08B300E3F562 /* MaxFramed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D25FC5C297F08B300E3F562 /* MaxFramed.swift */; };
@@ -36,7 +37,6 @@
 		0D97DD7B2984B0DA0030BC7A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97DD7A2984B0DA0030BC7A /* File.swift */; };
 		0D97DD7D2984B11F0030BC7A /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97DD7C2984B11F0030BC7A /* Gallery.swift */; };
 		0D97DD7F2984B9BF0030BC7A /* LoadingGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97DD7E2984B9BF0030BC7A /* LoadingGallery.swift */; };
-		0DB7BB6E298EB36900BA198A /* YOLOv5s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7BB6D298EB36900BA198A /* YOLOv5s.mlmodel */; };
 		0DC550ED298ECBB20088608C /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC550EC298ECBB20088608C /* ChartData.swift */; };
 		0DC550EF298ECF910088608C /* FPSChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC550EE298ECF910088608C /* FPSChart.swift */; };
 		0DDA121B29832D1700991BD0 /* CoreMLModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDA121A29832D1700991BD0 /* CoreMLModelDescriptionView.swift */; };
@@ -54,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		0D11159229880EE900D032C8 /* VideoDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetection.swift; sourceTree = "<group>"; };
+		0D210DAB298F14D400CC81BC /* YOLOv5s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv5s.mlmodel; sourceTree = "<group>"; };
 		0D25FC58297EFEEC00E3F562 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		0D25FC5A297F042900E3F562 /* StatusProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusProgressView.swift; sourceTree = "<group>"; };
 		0D25FC5C297F08B300E3F562 /* MaxFramed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxFramed.swift; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 		0D97DD7A2984B0DA0030BC7A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		0D97DD7C2984B11F0030BC7A /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		0D97DD7E2984B9BF0030BC7A /* LoadingGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingGallery.swift; sourceTree = "<group>"; };
-		0DB7BB6D298EB36900BA198A /* YOLOv5s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv5s.mlmodel; sourceTree = "<group>"; };
 		0DC550EC298ECBB20088608C /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 		0DC550EE298ECF910088608C /* FPSChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSChart.swift; sourceTree = "<group>"; };
 		0DDA121A29832D1700991BD0 /* CoreMLModelDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLModelDescriptionView.swift; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 				0DFC8B8B297C86B700D1B3C9 /* Structs */,
 				0D97DD792984B0CE0030BC7A /* Protocols */,
 				0D73DBF3298B3757005D214B /* YOLOv3Tiny.mlmodel */,
-				0DB7BB6D298EB36900BA198A /* YOLOv5s.mlmodel */,
+				0D210DAB298F14D400CC81BC /* YOLOv5s.mlmodel */,
 				0D680A31297B38E8004F3839 /* CoreMLPlayer.entitlements */,
 				0D680A2E297B38E8004F3839 /* Preview Content */,
 			);
@@ -316,6 +316,7 @@
 			files = (
 				0DFC8B8D297C86C400D1B3C9 /* ImageFile.swift in Sources */,
 				0DF724B529805B3900C728A6 /* DetectionStats.swift in Sources */,
+				0D210DAC298F14D400CC81BC /* YOLOv5s.mlmodel in Sources */,
 				0DC550EF298ECF910088608C /* FPSChart.swift in Sources */,
 				0D97DD752984A8960030BC7A /* GalleryToolbar.swift in Sources */,
 				0D680A3D297B508A004F3839 /* VideoGalleryView.swift in Sources */,
@@ -331,7 +332,6 @@
 				0D25FC5D297F08B300E3F562 /* MaxFramed.swift in Sources */,
 				0D55FAFF297F45EA0049DAC7 /* LazyLoadWrapper.swift in Sources */,
 				0D680A29297B38E7004F3839 /* CoreMLPlayerApp.swift in Sources */,
-				0DB7BB6E298EB36900BA198A /* YOLOv5s.mlmodel in Sources */,
 				0D2702F22982125D00EDC25E /* DetectedObject.swift in Sources */,
 				0DDA121B29832D1700991BD0 /* CoreMLModelDescriptionView.swift in Sources */,
 				0DFC8B91297C886200D1B3C9 /* Images.swift in Sources */,
