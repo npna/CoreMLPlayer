@@ -1,2 +1,6 @@
-# CoreMLPlayer
- Try CoreML models on multiple images and videos quickly and easily
+# CoreML Player
+Try your CoreML Models on multiple videos and images easily and quickly.
+
+# Requirements
+macOS 13.0+
+
