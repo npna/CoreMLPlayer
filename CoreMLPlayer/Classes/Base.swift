@@ -109,7 +109,7 @@ class Base {
             for c in classificationObservations {
                 labels.append((label: c.identifier, confidence: String(format: "%.4f", c.confidence)))
             }
-            let label = "\(mainObject.identifier) (\(mainObject.confidence)"
+            let label = "\(mainObject.identifier) (\(mainObject.confidence))"
             let newObject = DetectedObject(
                 id: mainObject.uuid,
                 label: label, //mainObject.identifier,
