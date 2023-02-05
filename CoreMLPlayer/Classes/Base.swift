@@ -145,7 +145,7 @@ class Base {
             throw MLModelError(.io)
         }
         
-        if !modelDescription.outputDescriptionsByName.contains(where: { $0.key.contains("coordinate") }) {
+        if !modelDescription.outputDescriptionsByName.contains(where: { $0.key.contains("coordinate") || $0.key.contains("confidence") || $0.key.contains("class") }) {
             DispatchQueue.main.async {
                 self.showAlert(title: "This model is not of type Object Detection or Classification, and at the moment is not supported.")
             }
