@@ -1,5 +1,5 @@
 //
-//  ToolbarIcon.swift
+//  StyledToolbarIcon.swift
 //  CoreML Player
 //
 //  Created by NA on 1/23/23.

@@ -1,5 +1,5 @@
 //
-//  Detection.swift
+//  DetectionStats.swift
 //  CoreML Player
 //
 //  Created by NA on 1/24/23.

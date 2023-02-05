@@ -1,5 +1,5 @@
 //
-//  Images.swift
+//  ImageFile.swift
 //  CoreML Player
 //
 //  Created by NA on 1/22/23.
