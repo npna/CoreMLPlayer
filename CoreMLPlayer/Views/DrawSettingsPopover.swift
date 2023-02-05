@@ -131,9 +131,9 @@ struct DrawSettingsPopover: View {
                 Text("Size")
                 Spacer()
                 Slider(value: $drawSettings.labelFontSize,
-                       in: 10...20,
+                       in: 6...20,
                        step: 1,
-                       minimumValueLabel: Text("10"),
+                       minimumValueLabel: Text("6"),
                        maximumValueLabel: Text("20"),
                        label: {}
                 )
