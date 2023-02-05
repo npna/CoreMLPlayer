@@ -62,11 +62,6 @@ struct K {
         static let detectionBoxBackgroundColor: Color = .clear
     }
     
-    enum Types {
-        case image
-        case video
-    }
-    
     enum memoryStorage {
         case none
         case limitedCount(n: Int)
