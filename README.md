@@ -17,9 +17,7 @@ Currently supports Object Detection and Classification models that can be used w
 ![videos](https://user-images.githubusercontent.com/80475242/216794698-49bfb420-9850-4895-9ca9-ad722f7745d1.png)
 ![images](https://user-images.githubusercontent.com/80475242/216794699-2c5c733a-aeb5-4b99-a2c8-e0e743074213.png)
 
----
 
-For demo purposes and testing the functionality quickly, project includes 2 built-in mlmodel files:
+For demo purposes and being able to test the functionality quickly, project includes a sample mlmodel file:
 
-- YOLOv5s: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
-- YOLOv3Tiny: [https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet) (downloaded from [Apple's website]( https://developer.apple.com/machine-learning/models/) which mentions the original source as indicated)
+- YOLOv3Tiny: [https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet) (downloaded from [Apple's website]( https://developer.apple.com/machine-learning/models/))

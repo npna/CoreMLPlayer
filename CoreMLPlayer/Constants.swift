@@ -11,7 +11,6 @@ import UniformTypeIdentifiers
 struct K {
     struct CoreMLModel {
         static let builtInModels: [(name: String, source: String)] = [ // name must match file name in app bundle
-            (name: "YOLOv5s", source: "https://github.com/ultralytics/yolov5"),
             (name: "YOLOv3Tiny", source: "https://github.com/pjreddie/darknet")
         ]
         static let contentTypes: [UTType] = [UTType(importedAs: "com.apple.coreml.model")]
