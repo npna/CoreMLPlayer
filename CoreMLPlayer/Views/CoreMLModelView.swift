@@ -136,9 +136,9 @@ struct CoreMLModelView: View {
                     
                     Text("Compiled Model:").font(.footnote).bold()
                     Button {
-                        NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: coreMLModel.getModelURLString().compiled.directory)
+                        NSWorkspace.shared.selectFile(coreMLModel.getModelURLString().compiled.file, inFileViewerRootedAtPath: "")
                     } label: {
-                        Text("\(coreMLModel.getModelURLString().compiled.file)").font(.footnote)
+                        Text("\(coreMLModel.getModelURLString().compiled.file)").font(.footnote).foregroundColor(.brown)
                         if coreMLModel.selectedBuiltInModel == nil {
                             Text("(available until system reboot)").font(.footnote)
                         }
