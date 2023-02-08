@@ -15,8 +15,12 @@ Currently supports Object Detection and Classification models that can be used w
 # Screenshots
 
 ![videos](https://user-images.githubusercontent.com/80475242/216794698-49bfb420-9850-4895-9ca9-ad722f7745d1.png)
-![images](https://user-images.githubusercontent.com/80475242/216794699-2c5c733a-aeb5-4b99-a2c8-e0e743074213.png)
+<sub>[Video by Brett Sayles from Pexels](https://www.pexels.com/video/dog-waiting-along-the-sidewalk-2048206/)</sub>
 
+![images](https://user-images.githubusercontent.com/80475242/216794699-2c5c733a-aeb5-4b99-a2c8-e0e743074213.png)
+<sub>[Photo by Patrick Tomasso from Unsplash](https://unsplash.com/photos/nApljhT9kfM)
+
+---
 
 For demo purposes and being able to test the functionality quickly, project includes a sample mlmodel file:
 
