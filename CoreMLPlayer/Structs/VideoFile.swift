@@ -5,9 +5,7 @@
 //  Created by NA on 1/22/23.
 //
 
-import Foundation
 import AppKit
-import AVFoundation
 
 struct VideoFile: File, Identifiable {
     static var idCounter = 0

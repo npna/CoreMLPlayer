@@ -5,7 +5,6 @@
 //  Created by NA on 1/22/23.
 //
 
-import Foundation
 import AppKit
 import CoreML
 import Vision
