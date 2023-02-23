@@ -40,7 +40,7 @@ struct CoreMLModelView: View {
         
         // Included Models (if any)
         if K.CoreMLModel.builtInModels.count > 0 {
-            Text("Or if you just want to try things out, select an included sample model below:").font(.caption)
+            Text("Or if you just want to try things out, select an included sample model below (source mentioned at the bottom):").font(.caption)
             ForEach(K.CoreMLModel.builtInModels, id: \.name) { model in
                 Button {
                     coreMLModel.loadBuiltInModel(name: model.name)
@@ -131,8 +131,7 @@ struct CoreMLModelView: View {
             VStack {
                 VStack(alignment: .leading) {
                     Text("Original Model:").font(.footnote).bold()
-                    let originalModel = K.CoreMLModel.builtInModels.first(where: { $0.name == coreMLModel.selectedBuiltInModel })?.source ?? coreMLModel.getModelURLString().original.file
-                    Text("\(originalModel)").font(.footnote).padding(.bottom)
+                    Text(getOriginalModel()).lineLimit(nil).minimumScaleFactor(0.8).font(.footnote).padding(.bottom)
                     
                     Text("Compiled Model:").font(.footnote).bold()
                     Button {
@@ -175,6 +174,17 @@ struct CoreMLModelView: View {
                 }
             }
         }
+    }
+    
+    func getOriginalModel() -> String {
+        var originalModel: String = ""
+        if let builtIn = K.CoreMLModel.builtInModels.first(where: { $0.name == coreMLModel.selectedBuiltInModel })?.source {
+            originalModel = "\(builtIn) - This sample model is included in CoreMLPlayer for demo purposes and to quickly try things out."
+        } else {
+            originalModel = coreMLModel.getModelURLString().original.file
+        }
+        
+        return originalModel
     }
 }
 
