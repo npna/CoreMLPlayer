@@ -3,7 +3,7 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="280.011" x2="726.099" y1="29.5684" y2="912.434">
+<linearGradient gradientTransform="matrix(0.987651 0 0 1.0775 18.1249 27.9927)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="227.682" x2="768.774" y1="-30.4629" y2="829.97">
 <stop offset="0.0215667" stop-color="#7ab9ff"/>
 <stop offset="0.493383" stop-color="#67a2e3"/>
 <stop offset="0.604178" stop-color="#4383c9"/>
@@ -15,10 +15,10 @@
 </linearGradient>
 </defs>
 <g id="Background">
-<path d="M200 100L824 100C879.228 100 924 144.772 924 200L924 824C924 879.228 879.228 924 824 924L200 924C144.772 924 100 879.228 100 824L100 200C100 144.772 144.772 100 200 100Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M285.4 100L738.6 100C840.994 100 924 183.006 924 285.4L924 738.6C924 840.994 840.994 924 738.6 924L285.4 924C183.006 924 100 840.994 100 738.6L100 285.4C100 183.006 183.006 100 285.4 100Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
 </g>
 <g id="Border">
-<path d="M209.709 142L814.291 142C851.686 142 882 172.374 882 209.843L882 814.157C882 851.626 851.686 882 814.291 882L209.709 882C172.314 882 142 851.626 142 814.157L142 209.843C142 172.374 172.314 142 209.709 142Z" fill="#ffffff" fill-opacity="0.167077" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M285.4 142L738.6 142C817.798 142 882 206.202 882 285.4L882 738.6C882 817.798 817.798 882 738.6 882L285.4 882C206.202 882 142 817.798 142 738.6L142 285.4C142 206.202 206.202 142 285.4 142Z" fill="#ffffff" fill-opacity="0.167077" fill-rule="nonzero" opacity="1" stroke="none"/>
 </g>
 <g id="MLShapesGroup1">
 <path d="M677.021 254.303L698.859 291.661L655.587 291.895L677.021 254.303Z" fill="#12296b" fill-rule="nonzero" opacity="1" stroke="none"/>
@@ -36,7 +36,7 @@
 <path d="M586.544 785.597C586.685 795.261 578.965 803.209 569.301 803.351C559.637 803.492 551.689 795.772 551.548 786.108C551.406 776.444 559.126 768.495 568.79 768.354C578.454 768.213 586.403 775.933 586.544 785.597Z" fill="#84b1ea" fill-rule="nonzero" opacity="1" stroke="none"/>
 <path d="M783.477 709.672C783.618 719.336 775.898 727.285 766.234 727.426C756.57 727.567 748.622 719.847 748.481 710.183C748.34 700.519 756.059 692.571 765.723 692.43C775.387 692.289 783.336 700.008 783.477 709.672Z" fill="#84b1ea" fill-rule="nonzero" opacity="1" stroke="none"/>
 </g>
-<g id="CoreMLPlay">
+<g id="CoreMLPlayer">
 <path d="M363.303 334.944L640.909 493.84C660.073 504.809 660.14 522.71 641.058 533.822L364.648 694.788C345.566 705.9 330.03 697.008 329.947 674.926L328.752 355.065C328.669 332.983 344.139 323.975 363.303 334.944Z" fill="url(#LinearGradient_2)" fill-rule="nonzero" opacity="1" stroke="#387ac2" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10"/>
 </g>
 <g id="MLines">
