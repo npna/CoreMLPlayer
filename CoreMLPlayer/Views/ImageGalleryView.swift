@@ -59,7 +59,7 @@ struct ImageGalleryView: View {
                         } label: {
                             VStack {
                                 imagePreview.imageFramed()
-                                Text(image.name).font(.caption).lineLimit(1)
+                                Text(image.getTruncatedName()).font(.caption).lineLimit(1)
                             }
                         }
                         .buttonStyle(.plain)
@@ -78,7 +78,7 @@ struct ImageGalleryView: View {
                     if let nsImage = image.getPreview() {
                         VStack {
                             Image(nsImage: nsImage).imageFramed()
-                            Text(image.name).font(.caption).lineLimit(1)
+                            Text(image.getTruncatedName()).font(.caption).lineLimit(1)
                         }
                     } else {
                         Color.red

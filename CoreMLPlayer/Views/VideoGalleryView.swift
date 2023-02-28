@@ -47,7 +47,7 @@ struct VideoGalleryView: View {
                             } label: {
                                 VStack {
                                     Image(nsImage: imagePreview).imageFramed()
-                                    Text(video.name).font(.caption).lineLimit(1)
+                                    Text(video.getTruncatedName()).font(.caption).lineLimit(1)
                                 }
                             }
                             .buttonStyle(.plain)
