@@ -21,6 +21,6 @@ extension File {
         let headCount = Int(ceil(Float(limit - truncateWith.count) / 2.0))
         let tailCount = Int(floor(Float(limit - truncateWith.count) / 2.0))
         
-        return "\(name.prefix(headCount))...\(name.suffix(tailCount))"
+        return "\(name.prefix(headCount))\(truncateWith)\(name.suffix(tailCount))"
     }
 }
