@@ -24,21 +24,18 @@ struct DetectionView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            if let videoSize, let videoRect = getVideoRect(geometrySize: geometry.size, videoSize: videoSize) {
-                ZStack {
-                    VStack { EmptyView() }
-                        .frame(width: videoRect.width, height: videoRect.height)
-                        .offset(x: videoRect.origin.x, y: videoRect.origin.y)
-                        .overlay {
-                            GeometryReader { videoGeometry in
-                                forEachBB(detectedObjects: detectedObjects, geometry: videoGeometry)
-                            }
-                        }
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-            } else {
-                forEachBB(detectedObjects: detectedObjects, geometry: geometry)
+            let videoRect = getVideoRect(geometrySize: geometry.size, videoSize: videoSize ?? CGSize(width: 0, height: 0))
+            ZStack {
+                VStack { EmptyView() }
+                    .frame(width: videoRect.width, height: videoRect.height)
+                    .offset(x: videoRect.origin.x, y: videoRect.origin.y)
+                    .overlay {
+                        GeometryReader { videoGeometry in
+                            forEachBB(detectedObjects: detectedObjects, geometry: videoGeometry)
+                                               }
+                    }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
     

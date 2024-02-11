@@ -2,27 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UTImportedTypeDeclarations</key>
-	<array>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string></string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>Core ML Model</string>
-			<key>UTTypeIcons</key>
-			<dict/>
-			<key>UTTypeIdentifier</key>
-			<string>com.apple.coreml.model</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>mlmodel</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <!-- UTI for .mlmodel files -->
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Core ML Model</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.apple.coreml.model</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>mlmodel</string>
+                </array>
+            </dict>
+        </dict>
+        <!-- UTI for .mlpackage files -->
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Core ML Package</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.apple.coreml.mlpackage</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>mlpackage</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>

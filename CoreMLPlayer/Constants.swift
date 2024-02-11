@@ -13,7 +13,10 @@ struct K {
         static let builtInModels: [(name: String, source: String)] = [ // name must match file name in app bundle
             (name: "YOLOv3Tiny", source: "https://github.com/pjreddie/darknet")
         ]
-        static let contentTypes: [UTType] = [UTType(importedAs: "com.apple.coreml.model")]
+        static let contentTypes: [UTType] = [
+            UTType(importedAs: "com.apple.coreml.model"),
+            UTType(importedAs: "com.apple.coreml.mlpackage")
+            ]
     }
     
     struct LazyVGrid {
